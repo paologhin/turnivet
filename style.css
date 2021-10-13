@@ -47,14 +47,14 @@
         table {border-collapse: collapse;
         }
         td, th {
-        text-transform: uppercase;
-  			border-bottom: 1px dotted rgb(60,60,60);
-  			padding: 0.5rem;
-            max-width: 0;
-            min-width: 40vw;
- 			  overflow: hidden;
- 			  text-overflow: ellipsis;
- 			  white-space: nowrap;
-		    }
-		    tr:nth-last-child(1) {border-bottom: hidden;}
+        	text-transform: uppercase;
+  		border-bottom: 1px dotted rgb(60,60,60);
+  		padding: 0.5rem;
+        	max-width: 0;
+        	min-width: 60vw;
+ 		overflow: hidden;
+ 		text-overflow: ellipsis;
+ 		white-space: nowrap;
+	}
+	tr:nth-last-child(1) {border-bottom: hidden;}
 
