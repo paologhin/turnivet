@@ -1,11 +1,26 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<style>
+    	.header {
+        	text-align: center;
+        }
     	body {
-        	background-color:rgb(100, 200, 120);
+        	background-color:rgb(50, 130, 60);
+            color: rgb(10,10,30);
             padding: 10vw;
             background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
+        }
+        #title {
+        	color: rgb(180,50,50);
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+        #subtitle {
+        	font-style: italic;
+        }
+        #header-image {
+        	box-shadow: 5px 5px 2px rgb(90,90,105);
         }
         a {
         	color: rgb(100, 20, 20);
@@ -15,17 +30,22 @@
         	color: rgb(180, 30, 20);
         }
         img {
-        	height: 100%;
-            width: 100%;
-            object-fit: contain
+        	height: auto;
+            width: auto;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
 
-<img src="https://st2.depositphotos.com/21175886/47254/i/450/depositphotos_472549766-stock-photo-summer-evening-group-young-cows.jpg"> 
-<h1>TurniVet</h1><br>
-Ultimo aggiornamento 13/10/21<br>
+<div class="header">
+<img id="header-image" src="https://st2.depositphotos.com/21175886/47254/i/450/depositphotos_472549766-stock-photo-summer-evening-group-young-cows.jpg">
+<h1 id="title">TurniVet</h1>
+<p id="subtitle">Ultimo aggiornamento 13/10/21</p>
+</div>
+
 <p>Selezionare una delle opzioni:</p>
 
 <ul>
@@ -35,3 +55,4 @@ Ultimo aggiornamento 13/10/21<br>
 
 </body>
 </html>
+
