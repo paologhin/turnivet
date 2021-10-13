@@ -11,10 +11,10 @@
             width: 70vw;
         }
         .center {
-  			margin: auto;
-  			width: 80%;
-  			border: none;
-  			padding: 10px;
+  			margin: 0 auto;
+  			width: 90%;
+  			#border: none;
+  			#padding: 10px;
 
         }
         #title {
@@ -44,7 +44,9 @@
             max-height: 100%;
             object-fit: cover;
         }
-        table {border-collapse: collapse;
+        table {
+		border-collapse: collapse;
+		margin: 0 auto;
         }
         td, th {
         	text-transform: uppercase;
